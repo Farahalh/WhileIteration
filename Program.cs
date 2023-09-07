@@ -13,6 +13,7 @@
 
         private static bool MainMenu()
         {
+            Console.Clear();
             Console.WriteLine("Choose an option: ");
             Console.WriteLine("1) Option 1");
             Console.WriteLine("2) Option 2");
@@ -41,7 +42,17 @@
 
         private static void PrintNumbers()
         {
+            Console.Clear();
             Console.WriteLine("Print numbers");
+            Console.Write("Type a number: ");
+            int result = int.Parse(Console.ReadLine());
+            int counter = 1;
+            while (counter < result + 1)
+            {
+                Console.Write(counter);
+                Console.Write("-");
+                counter++;
+            }
             Console.ReadLine();
         }
 
