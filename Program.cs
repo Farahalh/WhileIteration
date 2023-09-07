@@ -21,19 +21,21 @@
             if (result == "1")
             {
                 PrintNumbers();
+                return true;
             }
 
             else if (result == "2")
                 {
                 GuessingGame();
+                return true;
                 }
             else if (result == "3")
             {
-
+                return false;
             }
             else
             {
-
+                return true;
             }
         }
 
