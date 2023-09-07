@@ -15,8 +15,8 @@
         {
             Console.Clear();
             Console.WriteLine("Choose an option: ");
-            Console.WriteLine("1) Option 1");
-            Console.WriteLine("2) Option 2");
+            Console.WriteLine("1) Print Numbers");
+            Console.WriteLine("2) Guessing Game");
             Console.WriteLine("3) Exit");
             string result = Console.ReadLine();
             if (result == "1")
